@@ -149,7 +149,7 @@ footer button {
     max-width: 100%;
   }
 
-#content {
+  #content {
     grid-template-columns: auto;
   }
 
