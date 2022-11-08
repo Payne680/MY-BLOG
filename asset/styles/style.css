@@ -1,7 +1,7 @@
 body {
   background-color: #80808057;
 }
-  
+
 #header {
   text-align: center;
   justify-content: center;
@@ -24,7 +24,7 @@ body {
   grid-template-columns: auto auto;
   gap: 10px;
 }
- 
+
 .wood {
   width: 50vw;
 }
@@ -84,7 +84,7 @@ body {
 
 .post {
   display: block;
-  border-left:#f1f1f1 !important;
+  border-left: #f1f1f1 !important;
   border-right: #f1f1f1 !important;
   border-top: #f1f1f1 !important;
   width: 100%;
@@ -100,7 +100,7 @@ body {
   background-color: white;
 }
 
-  .popular p {
+.popular p {
   display: flex;
   gap: 1vw;
 }
@@ -113,7 +113,7 @@ body {
   margin-top: 10px;
 }
 
-  .button {
+.button {
   background-color: white;
 }
 
@@ -147,14 +147,13 @@ footer button {
   #container {
     margin: 0;
     max-width: 100%;
-}
+  }
 
 #content {
-  grid-template-columns: auto;
-}
+    grid-template-columns: auto;
+  }
 
   .wood {
     width: 100%;
+  }
 }
-}
-  
