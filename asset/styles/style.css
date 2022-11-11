@@ -89,7 +89,7 @@ body {
   border-top: #f1f1f1 !important;
   width: 100%;
   box-shadow: 3px 3px 5px 4px #53505075;
-  margin-top: 5px;
+  margin-top: 40px;
 }
 
 .post p {
@@ -110,7 +110,8 @@ body {
   border: 1px solid gray;
   width: 100%;
   box-shadow: 3px 3px 5px 4px #53505075;
-  margin-top: 10px;
+  margin-top: 40px;
+  padding: 0px;
 }
 
 .button {
@@ -136,7 +137,8 @@ footer button {
 }
 
 .tag button {
-  margin: 5px;
+  margin: 4px;
+  padding: 3px;
 }
 
 .foot {
