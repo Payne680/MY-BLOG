@@ -7,9 +7,11 @@ body {
   justify-content: center;
 }
 
-.span {
+span {
   background-color: #000000da;
   color: white;
+  padding: 4px;
+  border-radius: 5px;
 }
 
 #container {
@@ -84,12 +86,14 @@ body {
 
 .post {
   display: block;
+  background-color: #f1f1f1;
   border-left: #f1f1f1 !important;
   border-right: #f1f1f1 !important;
   border-top: #f1f1f1 !important;
   width: 100%;
   box-shadow: 3px 3px 5px 4px #53505075;
-  margin-top: 40px;
+  margin-top: 30px;
+  padding-top: 3px;
 }
 
 .post p {
@@ -107,6 +111,7 @@ body {
 
 .tag {
   display: block;
+  background-color: #f1f1f1;
   border: 1px solid gray;
   width: 100%;
   box-shadow: 3px 3px 5px 4px #53505075;
@@ -137,8 +142,8 @@ footer button {
 }
 
 .tag button {
-  margin: 4px;
-  padding: 3px;
+  margin: 3px;
+  padding: 2px;
 }
 
 .foot {
