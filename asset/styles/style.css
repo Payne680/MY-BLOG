@@ -94,6 +94,7 @@ span {
   box-shadow: 3px 3px 5px 4px #53505075;
   margin-top: 30px;
   padding-top: 3px;
+  border: 20px;
 }
 
 .post p {
@@ -136,9 +137,10 @@ footer {
 
 footer button {
   height: 3rem;
-  margin: 25px 0;
+  margin: 15px 0;
   background-color: black;
   color: white;
+  padding: 15px;
 }
 
 .tag button {
