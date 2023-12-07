@@ -1,0 +1,168 @@
+body {
+  background-color: #80808057;
+}
+
+#header {
+  text-align: center;
+  justify-content: center;
+}
+
+span {
+  background-color: #000000da;
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+#container {
+  display: block;
+  margin: auto;
+  justify-content: center;
+  max-width: 80%;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.wood {
+  width: 50vw;
+}
+
+.big {
+  display: block;
+  width: 100%;
+  box-shadow: 3px 3px 5px 4px #53505075;
+  margin-top: 1px;
+}
+
+.avatar {
+  display: block;
+  width: 100%;
+  box-shadow: 3px 3px 5px 4px #53505075;
+}
+
+.adjust {
+  display: block;
+  width: 100%;
+  margin-bottom: 1px;
+}
+
+.woman {
+  width: 100%;
+}
+
+#right {
+  display: block;
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+}
+
+.adjust figcaption,
+.wood figcaption {
+  display: block;
+  background-color: white;
+  padding: 5px;
+}
+
+.figcaption p {
+  line-height: 25px;
+}
+
+.picture {
+  width: 50px;
+  text-align: center;
+}
+
+.post {
+  display: block;
+  background-color: #f1f1f1;
+  border-left: #f1f1f1 !important;
+  border-right: #f1f1f1 !important;
+  border-top: #f1f1f1 !important;
+  width: 100%;
+  box-shadow: 3px 3px 5px 4px #53505075;
+  margin-top: 30px;
+  padding-top: 3px;
+  border: 20px;
+}
+
+.post p {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.popular {
+  background-color: white;
+}
+
+.popular p {
+  display: flex;
+  gap: 1vw;
+}
+
+.tag {
+  display: block;
+  background-color: #f1f1f1;
+  border: 1px solid gray;
+  width: 100%;
+  box-shadow: 3px 3px 5px 4px #53505075;
+  margin-top: 40px;
+  padding: 0;
+}
+
+.button {
+  background-color: white;
+}
+
+.popular :hover {
+  background-color: #fff;
+}
+
+footer {
+  background-color: gray;
+  width: 100%;
+  height: 20vh;
+  margin-top: 5vh;
+}
+
+footer button {
+  height: 3rem;
+  margin: 15px 0;
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+.tag button {
+  margin: 3px;
+  padding: 2px;
+}
+
+.foot {
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  #container {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  #content {
+    grid-template-columns: auto;
+  }
+
+  .wood {
+    width: 100%;
+  }
+}
